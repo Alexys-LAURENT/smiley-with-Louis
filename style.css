@@ -4,3 +4,14 @@ body{
 }
 
 
+.gauche{
+    width: 50%;
+    float:left ;
+}
+
+
+.droite{
+    width: 50%;
+    float:left ;
+}
+
