@@ -152,7 +152,7 @@ body{
 }
 
 .active{
-    border: 5px solid white;
+    outline: 7px solid white;
 }
 
 
