@@ -18,8 +18,19 @@ body{
     width: 100px;
     margin: 0 auto;
     margin-top: 45%;
-    border-radius: 50px;
+    border-radius: 100px;
 }
+
+
+
+.tete:hover .oeil-gauche1{
+    animation-name: eyes-left, blink;
+}
+@keyframes eyes-left {
+    0%,50%{margin-left: 22%}
+    50%{margin-left: 15%}
+    
+  }
 
 .oeil-gauche1{
     display: flex;
@@ -30,7 +41,7 @@ body{
     margin-top: 18%;
     margin-left: 22%;
     animation-name: blink;
-    animation-duration: 2s;
+    animation-duration: 4s;
     animation-iteration-count: infinite;
 }
 
@@ -43,19 +54,19 @@ body{
     margin-top: 18%;
     margin-left: 42%;
     animation-name: blink;
-    animation-duration: 2s;
+    animation-duration: 4s;
     animation-iteration-count: infinite;
 }
 
 @keyframes blink {
     0%,80%{height: 13px;}
-    90%{height: 12px;margin-top: 19%}
+    90%{height: 12px;margin-top: 18%}
     100%{margin-top: 25%;height: 1px}
   }
 
 .bouche1{
     display: flex;
-    position: absolute;
+    position:absolute;
     width: 25px;
     height: 28px;
     background-color: black;
