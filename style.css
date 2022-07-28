@@ -5,6 +5,8 @@ body{
 
 
 .gauche{
+    height: 100px;
+    width: 100px;
     width: 50%;
     float:left ;
     background-color: green;
@@ -12,6 +14,8 @@ body{
 
 
 .droite{
+    height: 100px;
+    width: 100px;
     width: 50%;
     float:left ;
     background-color: red;
