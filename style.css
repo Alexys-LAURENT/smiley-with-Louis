@@ -1,11 +1,12 @@
 body{
     margin: 0;
     background-color: #002026;
+    overflow-y: hidden;
 }
 
 
 .gauche{
-    height: 100px;
+    height: 1000px;
     width: 50%;
     float:left ;
     background-color: green;
@@ -13,7 +14,7 @@ body{
 
 
 .droite{
-    height: 100px;
+    height: 1000px;
     width: 50%;
     float:left ;
     background-color: red;
