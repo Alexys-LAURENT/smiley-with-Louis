@@ -13,13 +13,13 @@ body{
 }
 
 .tete{
+    background-color: #a9c608;
     display: flex;
-    margin: 0 auto;
-    margin-top: 45%;
     height: 100px;
     width: 100px;
-    background-color: #a9c608;
-    
+    margin: 0 auto;
+    margin-top: 45%;
+    border-radius: 50px;
 }
 
 .droite{
@@ -28,7 +28,6 @@ body{
     float:left ;
     background-color: red;
 }
-
 
 
 .rond{
