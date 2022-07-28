@@ -12,14 +12,40 @@ body{
 }
 
 .tete{
+    background-color: #a9c608;
     display: flex;
-    margin: 0 auto;
-    margin-top: 45%;
     height: 100px;
     width: 100px;
+<<<<<<< HEAD
     display: flex;
     background-color: #a9c608;
     
+=======
+    margin: 0 auto;
+    margin-top: 45%;
+    border-radius: 50px;
+}
+
+.oeil-gauche-1{
+    display: flex;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50px;
+    margin-top: 25%;
+    margin-left: 30%;
+}
+
+
+.oeil-droit-1{
+    display: flex;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50px;
+    margin-top: 25%;
+    margin-left: 20%;
+>>>>>>> f5bf16f686a281944501376b81fcc377769783c8
 }
 
 .droite{
@@ -27,7 +53,6 @@ body{
     width: 50%;
     float:left ;
 }
-
 
 
 .rond{
