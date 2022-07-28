@@ -13,13 +13,11 @@ body{
 }
 
 .tete{
+    display: flex;
     margin: 0 auto;
-    margin-top: 30%;
+    margin-top: 45%;
     height: 100px;
     width: 100px;
-    
-    display: flex;
-    position: absolute;
     background-color: #a9c608;
     
 }
