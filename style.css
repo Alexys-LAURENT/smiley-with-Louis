@@ -7,11 +7,13 @@ body{
 .gauche{
     width: 50%;
     float:left ;
+    background-color: green;
 }
 
 
 .droite{
     width: 50%;
     float:left ;
+    background-color: red;
 }
 
