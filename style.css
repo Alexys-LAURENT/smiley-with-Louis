@@ -16,9 +16,34 @@ body{
     display: flex;
     height: 100px;
     width: 100px;
+    margin: 0 auto;
+    margin-top: 45%;
+    border-radius: 50px;
+}
+
+.oeil-gauche1{
     display: flex;
-    background-color: #a9c608;
-    
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50px;
+    margin-top: 25%;
+    margin-left: 30%;
+}
+
+
+.oeil-droit1{
+    display: flex;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50px;
+    margin-top: 25%;
+    margin-left: 20%;
+}
+
+.bouche1{
+
 }
 
 .droite{
