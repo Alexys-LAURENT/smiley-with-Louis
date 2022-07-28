@@ -18,12 +18,10 @@ body{
     width: 100px;
     margin: 0 auto;
     margin-top: 45%;
-    border-radius: 50px;
+    border-radius: 100px;
 }
 
-.tete:hover{
-    
-}
+
 
 .tete:hover .oeil-gauche1{
     animation-name: eyes-left, blink;
