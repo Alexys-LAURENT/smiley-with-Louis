@@ -164,32 +164,17 @@ body{
         margin-left: 15%;
     }
     70%{
-        margin-left: 20%;
+        margin-left: 25%;
     }
     100%{
         margin-left: 18%;
     }
 }
 
-@keyframes bouge2{
-    0%{margin-left: 42%;}
-    20%{
-        margin-left: 40%;
-    }
-    70%{
-        margin-left: 45%;
-    }
-    100%{
-        margin-left: 42%;
-    }
-}
+
 
 
 .rond:hover .oeil-gauche2{
     animation-name: bouge1;
-    animation-delay: 0.5s;
-}
-.rond:hover .oeil-droit2{
-    animation-name: bouge2;
     animation-delay: 0.5s;
 }
