@@ -9,15 +9,14 @@ body{
     height: 1000px;
     width: 50%;
     float:left ;
-    background-color: green;
 }
 
 .tete{
+    display: flex;
     margin: 0 auto;
-    margin-top: 30%;
+    margin-top: 45%;
     height: 100px;
     width: 100px;
-    
     display: flex;
     background-color: #a9c608;
     
@@ -27,7 +26,6 @@ body{
     height: 1000px;
     width: 50%;
     float:left ;
-    background-color: red;
 }
 
 
@@ -43,7 +41,7 @@ body{
 }
 
 
-.oeil-gauche{
+.oeil-gauche2{
     display: flex;
     width: 10px;
     height: 10px;
@@ -54,7 +52,7 @@ body{
 }
 
 
-.oeil-droit{
+.oeil-droit2{
     display: flex;
     width: 10px;
     height: 10px;
